@@ -202,6 +202,7 @@ input {
   z-index: -1;
 }
 
+
 .service-item .image {
   padding: 0;
   margin-bottom: 3em;
@@ -256,4 +257,5 @@ input {
     padding-right: 1em;
     display: inline-block;
   }
+  
 }
