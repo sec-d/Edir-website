@@ -47,6 +47,15 @@ a img {
 a {
   text-decoration: none;
 }
+
+ #make-event {
+  text-align: center;
+  margin: 0em;
+  margin-top: 4em;
+  min-height: 0%;
+  justify-content: center;
+  padding: 0em;
+}
 .container {
   width: 100%;
   padding: 0px;
@@ -202,7 +211,6 @@ input {
   z-index: -1;
 }
 
-
 .service-item .image {
   padding: 0;
   margin-bottom: 3em;
@@ -257,5 +265,4 @@ input {
     padding-right: 1em;
     display: inline-block;
   }
-  
 }
