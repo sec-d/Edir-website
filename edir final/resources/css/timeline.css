@@ -139,11 +139,29 @@ body {
   padding: 3em;
 }
 .content {
-  padding-right: 0.4em;
+  padding-right: 2.5em;
+  padding-bottom: 12px;
+  padding-left: 10em;
+  margin-left: 2em;
+}
+
+.service-item .image {
+  padding: 0;
+  margin: -2;
+  margin-bottom: 2em;
+}
+
+.notification-content {
+  padding-right: 1.4em;
   padding-bottom: 12px;
 }
 
+.notification h1 {
+  font-size: 24px;
+  padding-bottom: 12px;
+}
 .content h1 {
+  font-size: 24px;
   margin-top: 10px;
   padding-top: 15px;
 }
@@ -151,7 +169,7 @@ body {
   text-transform: capitalize;
   padding-bottom: 0.9em;
 }
-.notification .content a {
+.notification .notification-content a {
   text-decoration: underline #3399ff solid;
   cursor: pointer;
   display: flex;
@@ -163,7 +181,7 @@ body {
   letter-spacing: 0.05rem;
 }
 
-.notification .content a:hover {
+.notification .notification-content a:hover {
   color: #3399ff;
 }
 
@@ -200,6 +218,13 @@ body {
     justify-content: space-between;
     width: 100%;
     padding: 0px;
+  }
+
+  .content {
+    margin: 0;
+  }
+  .content h1 {
+    padding-left: 0px;
   }
 
   .post-item .image-post {
