@@ -25,6 +25,11 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+li a img {
+  height: 35px;
+  width: 35px;
+}
 p {
   color: black;
   font-size: 1.4rem;
@@ -44,6 +49,10 @@ p {
 }
 .section-title span {
   color: crimson;
+}
+
+.box {
+  background-color: none;
 }
 
 .cta {
@@ -111,6 +120,7 @@ p {
   overflow-x: hidden;
   transition: 0.5s ease left;
 }
+
 #header .nav-list ul.active {
   left: 0%;
 }
@@ -143,6 +153,7 @@ p {
 #header .nav-list ul li:hover a {
   color: #fd7100;
 }
+
 #header .hamburger {
   height: 60px;
   width: 60px;
@@ -201,7 +212,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(./resources/images/edir-hero.jpg);
+  background-image: url(../images/edir-hero.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -593,6 +604,10 @@ p {
     font-size: 6rem;
   }
 
+  .box {
+    background-color: crimson;
+  }
+
   /* Hero */
   #hero h1 {
     font-size: 7rem;
@@ -696,6 +711,11 @@ p {
   #header .hamburger {
     display: none;
   }
+
+  .box {
+    background-color: crimson;
+  }
+
   #header .nav-list ul {
     position: initial;
     display: block;
