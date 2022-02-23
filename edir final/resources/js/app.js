@@ -43,4 +43,17 @@ menu_item.forEach((item) => {
 	});
 });
 
-  
+function loginVaidator(){
+localStorage.setItem("id", "user");
+localStorage.setItem("password","1234");
+
+const id = document.getElementById("id-input");
+const password = document.getElementById("password-input");
+
+if(id.value===localStorage.getItem("id")){
+
+	if(password.value == localStorage.getItem("password")){
+		window.open("../../index.html");
+	}
+}
+}  

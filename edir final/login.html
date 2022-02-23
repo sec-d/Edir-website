@@ -7,11 +7,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
   </head>
   <body>
-      <form action="index.html" class="login-form">
+      <form class="login-form" action="index.html">
         <h1>Login</h1>
 
         <div class="txtb">
-          <input type="text">
+          <input type="text" id="id-input">
           <span data-placeholder="Id"></span>
         </div>
 
@@ -20,14 +20,14 @@
           <span data-placeholder="Password"></span>
         </div>
 
-        <input type="submit" class="logbtn" value="Login">
+        <input type="submit" onsubmit="loginVaidator()" class="logbtn" id="pssword-input" value="Login">
 
         <div class="bottom-text">
-          Don't have account? <a href="#">Sign up</a>
+          Forgon Password?<a href="#"> Reset password</a>
         </div>
 
       </form>
-
+      <script src="resources/js/app.js"></script>
       <script type="text/javascript">
       $(".txtb input").on("focus",function(){
         $(this).addClass("focus");
